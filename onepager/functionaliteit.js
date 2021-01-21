@@ -11,7 +11,9 @@ verbeteringButton.addEventListener("click", function(){
     verbeteringSection.scrollIntoView({behaviour:'smooth'});
 })
 
+const filmpjeButton = document.querySelector("#filmpje")
+const filmSection = document.querySelector("#filmsection")
 
-
-
-
+filmpjeButton.addEventListener("click", function(){
+    filmSection.scrollIntoView({behaviour:'smooth'});
+})
